@@ -14,7 +14,7 @@ Output: (annotated) string.
 ## Acceptance Criteria (examples)
 
 Given input: `"Hello, world"`
-Output should be: `"Hello, world"`
+Output should be: `"Hello, world"` :check:
 
 Given input: `"Hello, warld"`
 Output should be: `"Hello, ~warld~"`
@@ -22,10 +22,10 @@ Output should be: `"Hello, ~warld~"`
 ## Edge or naive cases (examples)
 
 Given input: `""`
-Output should be: `""`
+Output should be: `""` :check:
 
 Given input: `"1"`
-Output should be: `"1"`
+Output should be: `"1"` :check:
 
 Given input: `1`
 Output should be: `SomeSortOfError`
