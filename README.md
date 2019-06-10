@@ -29,3 +29,7 @@ Output should be: `"1"`
 
 Given input: `1`
 Output should be: `SomeSortOfError`
+
+## Instructions
+
+Clone the repo, and `bundle install` to get started.
