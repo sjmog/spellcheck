@@ -13,8 +13,11 @@ Output: (annotated) string.
 
 ## Acceptance Criteria (examples)
 
-Given input: `"Hello, world"`
-Output should be: `"Hello, world"` :check:
+Given input: `"Hello world"`
+Output should be: `"Hello world"` :check:
+
+Given input: `"Hello warld"`
+Output should be: `"Hello ~warld~"` :construction:
 
 Given input: `"Hello, warld"`
 Output should be: `"Hello, ~warld~"` :construction:
