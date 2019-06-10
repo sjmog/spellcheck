@@ -17,7 +17,7 @@ Given input: `"Hello, world"`
 Output should be: `"Hello, world"` :check:
 
 Given input: `"Hello, warld"`
-Output should be: `"Hello, ~warld~"`
+Output should be: `"Hello, ~warld~"` :construction:
 
 ## Edge or naive cases (examples)
 

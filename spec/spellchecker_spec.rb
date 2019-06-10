@@ -11,5 +11,12 @@ describe Spellchecker do
         expect(spellchecker.check("Hello, world")).to eq "Hello, world"
       end
     end
+
+    context "when there are spelling mistakes in the input string" do
+      it "returns an annotated input string" do
+        expect(spellchecker.check("Hello, warld")).to eq "Hello, ~warld~"
+        expect(spellchecker.check("Hillo, world")).to eq "~Hillo~, world"
+      end
+    end
   end
 end
